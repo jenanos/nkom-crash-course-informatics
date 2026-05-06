@@ -1,6 +1,6 @@
 # Oppgave 8: Installere GitHub CLI
 
-Målet i denne oppgaven er at du skal installere GitHub CLI. GitHub CLI er GitHubs kommandolinjeverktøy. Vi trenger det for å logge inn på GitHub fra terminalen og hente resten av kursrepoet.
+Målet i denne oppgaven er at du skal installere GitHub CLI. GitHub CLI er GitHubs kommandolinjeverktøy. Vi trenger det for å logge inn på GitHub fra terminalen og hente hele kursrepoet.
 
 Kort forklart:
 - **GitHub** er en tjeneste for lagring og samarbeid om kode.
