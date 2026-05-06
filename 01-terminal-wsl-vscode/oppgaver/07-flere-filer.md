@@ -1,4 +1,4 @@
-# Oppgave 6: Et program med flere filer
+# Oppgave 7: Et program med flere filer
 
 Målet er å lære at et program kan bestå av flere filer, at Python kan importere kode fra en annen fil, og at terminalen må stå i riktig mappe.
 

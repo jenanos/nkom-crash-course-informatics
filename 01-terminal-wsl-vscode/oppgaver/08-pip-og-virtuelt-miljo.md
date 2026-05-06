@@ -1,4 +1,4 @@
-# Oppgave 7: pip og virtuelt miljø
+# Oppgave 8: pip og virtuelt miljø
 
 Målet i denne oppgaven er å forstå at pakker er ferdig kode andre har skrevet, at `pip` installerer Python-pakker, og at et virtuelt miljø holder pakker adskilt fra resten av maskinen.
 
@@ -6,6 +6,8 @@ Veldig enkelt forklart:
 - En pakke er ferdig kode vi kan bruke.
 - `pip` er et verktøy for å installere Python-pakker.
 - Et virtuelt miljø er en liten lokal Python-installasjon for prosjektet.
+
+Et virtuelt miljø gjør at hvert prosjekt kan ha sine egne pakker. Da slipper vi at pakker vi installerer i ett prosjekt påvirker andre Python-prosjekter på maskinen. Hvis prosjektet trenger pakken `pyfiglet`, installerer vi den bare inne i dette miljøet.
 
 ## Slik gjør du det
 

@@ -2,6 +2,21 @@
 
 I denne oppgaven skal du åpne Ubuntu fra Windows og lage kursmappen du skal jobbe i.
 
+## Før du starter: kopiere og lime inn i terminalen
+
+I terminalen fungerer kopiering og liming litt annerledes enn i vanlige Windows-programmer.
+
+For å lime inn tekst i Ubuntu/WSL-terminalen kan du vanligvis bruke:
+- `Ctrl` + `Shift` + `V`
+- eller høyreklikk i terminalen
+
+For å kopiere tekst ut fra terminalen:
+- marker teksten med musen
+- trykk `Ctrl` + `Shift` + `C`
+- eller høyreklikk og velg kopier
+
+Hvis `Ctrl` + `C` nevnes senere i kurset, betyr det som regel ikke kopier. I terminalen brukes `Ctrl` + `C` ofte til å stoppe et program som kjører.
+
 ## Del 1: Lag kursmappen
 
 Åpne **Ubuntu** eller **WSL** fra Start-menyen i Windows.

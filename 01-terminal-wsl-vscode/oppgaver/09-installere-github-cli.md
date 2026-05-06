@@ -1,6 +1,15 @@
-# Oppgave 8: Installere GitHub CLI
+# Oppgave 9: Installere GitHub CLI
 
 Målet i denne oppgaven er at du skal installere GitHub CLI. GitHub CLI er GitHubs kommandolinjeverktøy. Vi trenger det for å logge inn på GitHub fra terminalen og hente hele kursrepoet.
+
+Før du starter må du ha en GitHub-konto.
+
+Hvis du ikke har GitHub-konto:
+
+1. Gå til <https://github.com/>.
+2. Velg **Sign up**.
+3. Opprett konto med e-postadressen din.
+4. Logg inn på GitHub i nettleseren.
 
 Kort forklart:
 - **GitHub** er en tjeneste for lagring og samarbeid om kode.
@@ -62,6 +71,53 @@ Forklaring:
 - Følg instruksjonene på skjermen steg for steg.
 - Hvis du blir sendt til en nettside, logger du inn der og skriver inn koden hvis GitHub ber om det.
 
+## Hvis nettleseren ikke åpner seg fra WSL
+
+På noen maskiner klarer ikke WSL å åpne nettleseren for GitHub-innlogging. Da kan du logge inn med en GitHub-token i stedet.
+
+### Lag en token i GitHub
+
+Gjør dette i nettleseren:
+
+1. Gå til <https://github.com/settings/tokens>.
+2. Velg **Generate new token**.
+3. Velg **Generate new token (classic)** hvis du får flere valg.
+4. Gi tokenen et navn, for eksempel `WSL GitHub CLI`.
+5. Velg en utløpsdato.
+6. Huk av for disse valgene:
+   - `repo`
+   - `read:org`
+   - `gist`
+7. Trykk **Generate token**.
+8. Kopier tokenen med en gang.
+
+Viktig:
+- GitHub viser tokenen bare én gang.
+- Tokenen fungerer omtrent som et passord.
+- Ikke del tokenen med andre.
+- Ikke lim tokenen inn i en fil.
+
+### Logg inn med tokenen i WSL
+
+Skriv dette i Ubuntu/WSL-terminalen:
+
+```bash
+read -s GH_TOKEN
+```
+
+Lim inn tokenen og trykk `Enter`.
+
+Deretter skriver du:
+
+```bash
+echo "$GH_TOKEN" | gh auth login --with-token
+unset GH_TOKEN
+```
+
+Merknad:
+- Når du limer inn tokenen i terminalen, er det ikke sikkert at du ser noen tegn på skjermen.
+- Det er normalt. Lim inn, trykk `Enter`, og vent på neste melding.
+
 Dokumentasjon for innlogging:
 - <https://cli.github.com/manual/gh_auth_login>
 
@@ -80,6 +136,7 @@ Forklaring:
 ## Vanlige problemer
 
 - Hvis nettleseren ikke åpner seg, kopier lenken manuelt.
+- Hvis nettleserinnlogging ikke fungerer fra WSL, bruk innlogging med token.
 - Hvis du ikke har GitHub-bruker, må du opprette en på <https://github.com/>.
 - Hvis du får spørsmål om passord eller kode, følg instruksjonene fra GitHub.
 - Hvis du bruker jobb-PC, kan sikkerhetsinnstillinger påvirke innloggingen.

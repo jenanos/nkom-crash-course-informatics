@@ -24,7 +24,8 @@ Du skal lære å:
 3. `oppgaver/03-vscode-og-python.md`
 4. `oppgaver/04-chatgpt-lager-program.md`
 5. `oppgaver/05-feilsoeking-med-chatgpt.md`
-6. `oppgaver/06-flere-filer.md`
-7. `oppgaver/07-pip-og-virtuelt-miljo.md`
-8. `oppgaver/08-installere-github-cli.md`
-9. `oppgaver/09-klone-hele-repoet.md`
+6. `oppgaver/06-kryptering-og-passord.md`
+7. `oppgaver/07-flere-filer.md`
+8. `oppgaver/08-pip-og-virtuelt-miljo.md`
+9. `oppgaver/09-installere-github-cli.md`
+10. `oppgaver/10-klone-hele-repoet.md`

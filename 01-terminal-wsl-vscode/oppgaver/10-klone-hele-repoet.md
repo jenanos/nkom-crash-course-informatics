@@ -1,4 +1,4 @@
-# Oppgave 9: Klone hele kursrepoet
+# Oppgave 10: Klone hele kursrepoet
 
 Målet i denne oppgaven er at du skal hente hele kursrepoet fra GitHub. Dette gir deg tilgang til del 2 og del 3.
 
@@ -101,7 +101,7 @@ Du er nå ferdig med ZIP-delen av kurset. Fra nå av skal vi jobbe i den klonede
 
 ## Vanlige problemer
 
-- Hvis `gh` ikke finnes, gå tilbake til oppgave 8.
+- Hvis `gh` ikke finnes, gå tilbake til oppgave 9.
 - Hvis du ikke er logget inn, kjør `gh auth login`.
 - Hvis repoet ikke finnes, sjekk at GitHub-brukernavn og repo-navn er riktig.
 - Hvis mappen allerede finnes, kan det være fordi du har klonet repoet tidligere.

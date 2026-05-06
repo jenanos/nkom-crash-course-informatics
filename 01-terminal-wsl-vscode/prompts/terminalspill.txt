@@ -1,17 +1,47 @@
-Lag et enkelt terminalspill i Python 3.
+Lag et fluid Space Invaders-aktig terminalspill i Python 3.
 
 Krav:
 - Spillet skal være i én fil.
 - Filen skal hete romskip.py.
 - Det skal bare bruke Python standardbibliotek, ingen pip-pakker.
 - Det skal fungere i Ubuntu/WSL-terminalen.
-- Spillet skal være inspirert av Space Invaders, men turbasert:
-  - Spilleren styrer et romskip nederst.
-  - Fiender kommer ovenfra.
-  - Spilleren kan skrive a for venstre, d for høyre og s for å skyte.
-  - Spillet tegner brettet på nytt for hver tur.
-  - Spillet avsluttes hvis en fiende treffer spilleren.
+- Ikke bruk curses, pygame eller andre eksterne biblioteker.
+- Spillet skal reagere på tastetrykk uten at spilleren må trykke Enter.
+
+Lag et sanntids terminalspill inspirert av Space Invaders.
+
+Spilleren skal styre et romskip nederst på skjermen. Fiender skal bevege seg øverst på skjermen, skudd skal fly oppover, og spillet skal oppdatere seg automatisk mange ganger i sekundet.
+
+Spillet skal ha:
+- En tydelig tittel og en kort introhistorie.
+- Et spillbrett tegnet med teksttegn, for eksempel romskip, fiender, skudd og stjerner.
+- Automatisk skjermoppdatering, slik at spillet føles levende og ikke turbasert.
+- Styring uten Enter:
+  - a eller venstre pil flytter romskipet til venstre
+  - d eller høyre pil flytter romskipet til høyre
+  - mellomrom skyter
+  - q avslutter spillet
+- Fiender som beveger seg sideveis og gradvis kommer nedover.
+- Kollisjon mellom skudd og fiender.
+- Kollisjon eller tap hvis fiendene når spilleren.
+- Poengsum, liv og nivå som vises på skjermen.
+- Minst tre nivåer, der fiendene blir raskere eller flere.
+- Enkle lydeffekter kan simuleres med tekstmeldinger, men ikke bruk ekte lyd.
+- En startskjerm som forklarer tastene.
+- En game over-skjerm og en seier-skjerm.
+- Korte, morsomme meldinger som gjør spillet levende uten å forstyrre spillingen.
+- Ryddig kode med funksjoner, for eksempel les_tast(), tegn_brett(), oppdater_fiender(), oppdater_skudd(), sjekk_kollisjoner() og hovedspill().
+- Kommentarer i koden der det hjelper en nybegynner å forstå hva som skjer.
+- Programmet skal starte med en gang når jeg kjører python3 romskip.py.
+
+Viktig:
+- Ikke lag et for stort eller avansert program.
+- Koden skal være lett å lese for en nybegynner.
+- Bruk gjerne random, os, sys, time, select, termios og tty fra standardbiblioteket.
+- Bruk ANSI escape-koder eller os.system("clear") for å tegne skjermen på nytt.
+- Terminalinnstillingene må settes tilbake til normalen når spillet avsluttes, også hvis brukeren trykker Ctrl+C.
+- Ikke bruk input() inne i selve spill-løkken, fordi det stopper spillet.
+- Ikke bruk while-løkker som gjør spillet ukontrollerbart raskt. Bruk time.sleep() for å styre hastigheten.
+- Hvis piltaster blir for komplisert, må a, d, mellomrom og q uansett fungere.
 - Koden skal være komplett.
 - Etter koden skal du forklare nøyaktig hvordan jeg lagrer og kjører filen.
-- Ikke bruk curses, pygame eller andre eksterne biblioteker.
-- Ikke bruk pip-pakker.
