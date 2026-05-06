@@ -1,0 +1,6 @@
+Dette er en enkel datafil.
+Den brukes til å øve på cat, grep, wc og andre terminalkommandoer.
+Banan
+Eple
+Appelsin
+Banan

@@ -1,0 +1,3 @@
+Dette er en eksempeltekst.
+Den brukes i del 2 av kurset.
+Vi skal gjøre små endringer i teksten og versjonere dem med Git.
