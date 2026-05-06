@@ -7,7 +7,7 @@ Målet er at du skal lage en egen privat kopi på GitHub og forstå forskjellen 
 Kjør:
 
 ```bash
-cd ~/crash-course/informatikk-crash-course
+cd ~/crash-course/nkom-crash-course-informatics
 ```
 
 ## Sjekk dagens remote
@@ -40,7 +40,7 @@ git remote -v
 Kjør:
 
 ```bash
-gh repo create mitt-informatikk-crash-course --private --source=. --remote=origin --push
+gh repo create mitt-nkom-crash-course-informatics --private --source=. --remote=origin --push
 ```
 
 Forklaring:

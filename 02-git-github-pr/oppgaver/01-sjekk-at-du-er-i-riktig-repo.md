@@ -7,7 +7,7 @@ I del 1 klonet vi hele kursrepoet fra GitHub. I del 2 skal vi jobbe videre i den
 Kjør:
 
 ```bash
-cd ~/crash-course/informatikk-crash-course
+cd ~/crash-course/nkom-crash-course-informatics
 pwd
 ls
 git status

@@ -33,21 +33,32 @@ ls
 
 ## Klon repoet
 
-Skriv:
+Du kan finne riktig kommando på GitHub:
+
+1. Gå til repoet på GitHub:
+
+   <https://github.com/jenanos/nkom-crash-course-informatics>
+
+2. Trykk på den grønne knappen `Code`.
+3. Velg fanen `GitHub CLI`.
+4. Kopier kommandoen som starter med `gh repo clone`.
+5. Lim kommandoen inn i terminalen.
+
+Kommandoen skal være:
 
 ```bash
-gh repo clone DIN-GITHUB-BRUKER/informatikk-crash-course
+gh repo clone jenanos/nkom-crash-course-informatics
 ```
 
 Viktig:
-- Kursholder skal ha erstattet `DIN-GITHUB-BRUKER` med riktig GitHub-bruker før deltakerne bruker oppgaven.
+- `jenanos` er Jens GitHub-bruker for kursrepoet.
 
 ## Gå inn i repoet
 
 Skriv:
 
 ```bash
-cd informatikk-crash-course
+cd nkom-crash-course-informatics
 ```
 
 ## Kontroller at alle tre delene finnes
@@ -91,12 +102,53 @@ Forklaring:
 - Foreløpig peker `origin` til kursholders public repo.
 - I del 2 skal du lage ditt eget private repo og bytte remote-oppsett.
 
+## Rydd i den gamle ZIP-kopien
+
+Før du klonet repoet, jobbet du i en ZIP-kopi av del 1.
+
+Etter kloning kan du derfor se `01-terminal-wsl-vscode` to steder:
+
+- `~/crash-course/01-terminal-wsl-vscode`
+- `~/crash-course/nkom-crash-course-informatics/01-terminal-wsl-vscode`
+
+Fra nå av skal du bruke mappen som ligger inne i det klonede repoet:
+
+```text
+~/crash-course/nkom-crash-course-informatics/01-terminal-wsl-vscode
+```
+
+For å unngå forvirring kan du gi den gamle ZIP-kopien et nytt navn.
+
+Gå først tilbake til hovedmappen:
+
+```bash
+cd ~/crash-course
+```
+
+Gi så den gamle ZIP-kopien et tydelig navn:
+
+```bash
+mv 01-terminal-wsl-vscode 01-terminal-wsl-vscode-zip-kopi
+```
+
+Sjekk at du fortsatt har det klonede repoet:
+
+```bash
+ls
+```
+
+Du skal fortsatt se:
+
+```text
+nkom-crash-course-informatics
+```
+
 ## Videre arbeid
 
 Du er nå ferdig med ZIP-delen av kurset. Fra nå av skal vi jobbe i den klonede mappen:
 
 ```text
-~/crash-course/informatikk-crash-course
+~/crash-course/nkom-crash-course-informatics
 ```
 
 ## Vanlige problemer
