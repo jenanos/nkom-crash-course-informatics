@@ -1,0 +1,15 @@
+Jeg prøver å kjøre et Python-program i Ubuntu/WSL.
+
+Kommandoen jeg kjørte var:
+[lim inn kommandoen her]
+
+Feilmeldingen jeg fikk var:
+[lim inn hele feilmeldingen her]
+
+Koden er:
+[lim inn hele koden her]
+
+Forklar feilen på en enkel måte.
+Fortell hvilken linje som er problemet.
+Gi meg en rettet versjon av koden.
+Forklar kort hvorfor den nye versjonen fungerer.

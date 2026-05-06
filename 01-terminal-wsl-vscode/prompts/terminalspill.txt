@@ -1,0 +1,17 @@
+Lag et enkelt terminalspill i Python 3.
+
+Krav:
+- Spillet skal være i én fil.
+- Filen skal hete romskip.py.
+- Det skal bare bruke Python standardbibliotek, ingen pip-pakker.
+- Det skal fungere i Ubuntu/WSL-terminalen.
+- Spillet skal være inspirert av Space Invaders, men turbasert:
+  - Spilleren styrer et romskip nederst.
+  - Fiender kommer ovenfra.
+  - Spilleren kan skrive a for venstre, d for høyre og s for å skyte.
+  - Spillet tegner brettet på nytt for hver tur.
+  - Spillet avsluttes hvis en fiende treffer spilleren.
+- Koden skal være komplett.
+- Etter koden skal du forklare nøyaktig hvordan jeg lagrer og kjører filen.
+- Ikke bruk curses, pygame eller andre eksterne biblioteker.
+- Ikke bruk pip-pakker.
