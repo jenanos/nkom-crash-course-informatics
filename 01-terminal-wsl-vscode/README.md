@@ -2,6 +2,8 @@
 
 Dette er første del av kurset. Målet er å bli trygg på arbeidsflaten du skal bruke når du jobber med kode.
 
+Del 1 er den eneste delen du får tilsendt som ZIP. Helt til slutt i del 1 installerer vi GitHub CLI og kloner hele kursrepoet. Når repoet er klonet, får du tilgang til del 2 og del 3.
+
 Du skal lære å:
 - åpne Ubuntu/WSL
 - lage mapper
@@ -24,3 +26,5 @@ Du skal lære å:
 5. `oppgaver/05-feilsoeking-med-chatgpt.md`
 6. `oppgaver/06-flere-filer.md`
 7. `oppgaver/07-pip-og-virtuelt-miljo.md`
+8. `oppgaver/08-installere-github-cli.md`
+9. `oppgaver/09-klone-hele-repoet.md`

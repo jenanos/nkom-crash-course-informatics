@@ -1,9 +1,11 @@
 # Del 2: Git, GitHub og Pull Requests
 
-Denne delen handler om hvordan utviklere henter, endrer og deler kode. Du skal bruke GitHub CLI.
+Denne delen handler om hvordan utviklere endrer og deler kode. Du skal bruke GitHub CLI.
+
+Denne delen forutsetter at du allerede har fullført del 1, installert GitHub CLI og klonet hele kursrepoet.
 
 Du skal:
-- klone repoet
+- sjekke at du står i riktig repo
 - bytte remote
 - pushe til eget privat repo
 - lage branch
@@ -27,7 +29,7 @@ Du skal:
 
 ## Anbefalt rekkefølge
 
-1. `oppgaver/01-klone-repo.md`
+1. `oppgaver/01-sjekk-at-du-er-i-riktig-repo.md`
 2. `oppgaver/02-eget-repo-og-remote.md`
 3. `oppgaver/03-branch-commit-push.md`
 4. `oppgaver/04-pull-request.md`

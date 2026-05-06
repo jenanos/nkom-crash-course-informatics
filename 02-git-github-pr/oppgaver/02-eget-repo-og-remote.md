@@ -2,6 +2,14 @@
 
 Målet er at du skal lage en egen privat kopi på GitHub og forstå forskjellen på kursholders repo og ditt eget repo.
 
+## Stå i rotmappen til det klonede repoet
+
+Kjør:
+
+```bash
+cd ~/crash-course/informatikk-crash-course
+```
+
 ## Sjekk dagens remote
 
 Kjør:
@@ -9,6 +17,9 @@ Kjør:
 ```bash
 git remote -v
 ```
+
+Forklaring:
+- Foreløpig peker `origin` til kursholders public repo.
 
 ## Gi kursholders repo navnet upstream
 
@@ -33,6 +44,9 @@ gh repo create mitt-informatikk-crash-course --private --source=. --remote=origi
 ```
 
 Forklaring:
+- `upstream` = kursholders repo
+- `origin` = ditt eget repo
+- `private` = bare du har tilgang, med mindre du inviterer andre
 - `gh repo create` lager et nytt repo på GitHub
 - `--private` gjør repoet privat
 - `--source=.` betyr: bruk mappen jeg står i nå
