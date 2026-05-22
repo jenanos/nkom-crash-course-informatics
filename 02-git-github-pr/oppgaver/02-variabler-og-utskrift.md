@@ -12,6 +12,23 @@ code spillerkort.py
 
 ## Lag et enkelt spillerkort
 
+En variabel lager du ved å skrive navn, så `=`, og så verdien:
+
+```python
+navn = "Ada Hegerberg"
+lag = "Lyon"
+draktnummer = 14
+maal = 12
+```
+
+Du kan skrive ut tekst med `print(...)`:
+
+```python
+print("Spillerkort")
+print(navn)
+print(f"{navn} spiller for {lag}")
+```
+
 Skriv et lite program som lager variabler for:
 - spillerens navn
 - lag
@@ -19,6 +36,11 @@ Skriv et lite program som lager variabler for:
 - antall mål denne sesongen
 
 Programmet skal skrive ut informasjonen som et lite spillerkort.
+
+Tips:
+- tekst skrives med anførselstegn, for eksempel `"Brann"`
+- tall skrives uten anførselstegn, for eksempel `7`
+- `f` foran en streng gjør at du kan sette inn variabler med `{...}`
 
 Forslag til utskrift:
 - en overskrift
