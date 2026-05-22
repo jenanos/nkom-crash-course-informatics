@@ -6,7 +6,7 @@ Hovedmålet er ikke å gjøre deltakerne til utviklere. Målet er at de skal kun
 
 Repoet er delt i tre deler:
 - **Del 1:** terminal, WSL, VS Code og Python på egen maskin
-- **Del 2:** Git, GitHub, brancher, commit og pull request
+- **Del 2:** mer Python, Git og GitHub i eget repo
 - **Del 3:** API-er, JSON og et lite eget prosjekt med åpne data
 
 ## Slik er flyten i kurset
@@ -20,14 +20,16 @@ Repoet er delt i tre deler:
 
 ### Del 2
 
-- Deltakerne jobber i det klonede repoet.
-- De lager eget privat repo, endrer remote-oppsett, lager branch, commit, push og pull request.
+- Deltakerne bruker den klonede kopien av kursrepoet som oppskrift.
+- Ved siden av den klonede mappen lager de en ny mappe for egne Python-oppgaver.
+- De jobber først med små Python-programmer og tar inn Git og GitHub omtrent halvveis.
+- De oppretter et privat repo på GitHub som bare inneholder deres egne oppgaver.
 
 ### Del 3
 
 - Deltakerne lager eget API-prosjekt i et nytt repo.
 
-Det er normalt at du først har en ZIP-kopi av del 1 og senere en klonet kopi av hele repoet. Etter at repoet er klonet, jobber vi videre i den klonede kopien.
+Det er normalt at du først har en ZIP-kopi av del 1 og senere en klonet kopi av hele repoet. Etter at repoet er klonet, bruker du den klonede kopien som kursmateriell, mens du skriver egne løsninger i egne mapper.
 
 ## Viktig begrepsforskjell
 
