@@ -11,6 +11,8 @@ cp ../nkom-crash-course-informatics/02-git-github-pr/ressurser/spillere_uryddig.
 ls
 ```
 
+Hvis kursrepoet ditt ligger et annet sted eller har et annet mappenavn, må du justere stien i `cp`-kommandoen.
+
 ## Lag en ny fil
 
 Kjør:

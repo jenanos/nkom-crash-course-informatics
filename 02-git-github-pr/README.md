@@ -25,7 +25,7 @@ Du skal lære å:
 2. `oppgaver/02-variabler-og-utskrift.md`
 3. `oppgaver/03-if-og-kampresultater.md`
 4. `oppgaver/04-funksjoner-for-fotball.md`
-5. `oppgaver/05-lister-og-lokker.md`
+5. `oppgaver/05-lister-og-loekker.md`
 6. `oppgaver/06-git-i-ditt-eget-repo.md`
 7. `oppgaver/07-enkel-offside-sjekk.md`
 8. `oppgaver/08-lese-fra-fil-og-rydde-spillere.md`
