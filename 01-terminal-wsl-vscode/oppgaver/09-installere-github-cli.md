@@ -99,20 +99,7 @@ Viktig:
 
 ### Logg inn med tokenen i WSL
 
-Skriv dette i Ubuntu/WSL-terminalen:
-
-```bash
-read -s GH_TOKEN
-```
-
-Lim inn tokenen og trykk `Enter`.
-
-Deretter skriver du:
-
-```bash
-echo "$GH_TOKEN" | gh auth login --with-token
-unset GH_TOKEN
-```
+Skriv dette i Ubuntu/WSL-terminalen der hvor gh ber om det.
 
 Merknad:
 - Når du limer inn tokenen i terminalen, er det ikke sikkert at du ser noen tegn på skjermen.
