@@ -31,11 +31,14 @@ import os
 
 datasett_sti = os.path.join(os.path.dirname(__file__), "..", "data", "titanic.csv")
 if os.path.exists(datasett_sti):
-    df = pd.read_csv(datasett_sti)
-    print(f"\n✓ Titanic-datasettet funnet ({len(df)} rader)")
-    print(f"\nKolonner: {', '.join(df.columns)}")
-    print(f"\nDe 3 første radene:")
-    print(df.head(3).to_string(index=False))
+    try:
+        df = pd.read_csv(datasett_sti)
+        print(f"\n✓ Titanic-datasettet funnet ({len(df)} rader)")
+        print(f"\nKolonner: {', '.join(df.columns)}")
+        print(f"\nDe 3 første radene:")
+        print(df.head(3).to_string(index=False))
+    except NameError:
+        print(f"\n✓ Titanic-datasettet funnet, men kan ikke leses uten pandas.")
 else:
     print(f"\n✗ Fant ikke datasettet på: {datasett_sti}")
 
