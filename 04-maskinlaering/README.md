@@ -53,3 +53,9 @@ Disse pakkene gjør:
 - Ikke vær redd for feilmeldinger. Les dem og spør ChatGPT om hjelp.
 - Du trenger ikke forstå all matematikken. Fokuser på hva modellen gjør og hvorfor.
 - Alt kjøres på CPU, så det går raskt nok med disse små datasettene.
+
+## Videre til del 5
+
+I [del 5](../05-dypere-maskinlaering/README.md) åpner vi treningsløkken i PyTorch,
+trener bilde- og språkmodeller og undersøker attention og reinforcement learning.
+Små forsøk kan fortsatt kjøres på CPU, mens større forsøk bruker NVIDIA-GPU.

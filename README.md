@@ -4,11 +4,12 @@ Dette repoet er laget for et praktisk crash course i informatikk for ikke-utvikl
 
 Hovedmålet er ikke å gjøre deltakerne til utviklere. Målet er at de skal kunne bruke ChatGPT til å lage, kjøre, feilsøke og vurdere enkle programmer.
 
-Repoet er delt i fire deler:
+Repoet er delt i fem deler:
 - **Del 1:** terminal, WSL, VS Code og Python på egen maskin
 - **Del 2:** mer Python, Git og GitHub i eget repo
 - **Del 3:** API-er, JSON og et lite eget prosjekt med åpne data
 - **Del 4:** maskinlæring med små modeller som kjører lokalt på CPU
+- **Del 5:** dypere maskinlæring med PyTorch, forklarte notatbøker og GPU-eksperimenter
 
 ## Slik er flyten i kurset
 
@@ -36,6 +37,14 @@ Repoet er delt i fire deler:
 - De utforsker Titanic-datasettet og bygger maskinlæringsmodeller steg for steg.
 - De lærer regresjon, klassifisering, beslutningstrær og nevrale nett.
 - Alt kjøres lokalt på CPU.
+
+### Del 5
+
+- Deltakerne følger [del 5](05-dypere-maskinlaering/README.md) i en egen arbeidskopi, med Windows og WSL2 som utgangspunkt.
+- De ser gradienter og hele treningsløkken, og trener bilde- og språkmodeller selv.
+- Jupyter-notatbøker samler kode, forklaringer, bilder og læringskurver.
+- Små forsøk kan kjøres på CPU; større forsøk bruker gaming-PC med NVIDIA-GPU.
+- Attention og reinforcement learning utforskes med små eksempler der regnestykkene er synlige.
 
 Det er normalt at du først har en ZIP-kopi av del 1 og senere en klonet kopi av hele repoet. Etter at repoet er klonet, bruker du den klonede kopien som kursmateriell, mens du skriver egne løsninger i egne mapper.
 
